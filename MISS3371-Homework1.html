@@ -1,34 +1,30 @@
-<!DOCTYPE html>
-<!-- 
-Name: Emily Gaber
-File: mis3371Assignment1.html
-Date Created: 6/10/2026
-Date Updated: 6/10/2026
-Purpose: Learning html
-Note: If this looks familiar, its because it is. I am taking your class again! 
--->
 <html> 
-    <head align="center">  
+    <head >  
         <meta charset="utf-8">
         <title>  Dahlia Clinic Intake Form </title>
+		<link rel="stylesheet" href="Homework1.css">
     </head>
     <body>
       <tbody>
-        <img  align="center" id="logo" src="Dahlia.logo.png" alt="Dahlia Clinic Logo">
+        <img id="logo" src="Dahlia.logo.png" alt="Dahlia Clinic Logo">
+        <tr>
+            <td>
+            <h1 align="center">Dawhat Clinic</h1>
+            </td>
+           </tr>
         <div id="header">
             <form name="Intake" id="Intake" onreset="clear()" action="MIS3371SubmissionPage.html">
             <table class="form"  width="100%">
             <span id= "today"></span>
-            <h1>Dawhat Clinic</h1>
             <link rel="stylesheet" href="Assignment1.css">
         </div>
-            <tr class="form">
-                <td  colspan="2"align="center" name="100%">
+            <tr class="form" >
+                <td  colspan="2" align="center" name="100%">
                     <h3> Patient Information</h3>
                 </td>
             </tr>
                       
-            <td align="center"> 
+            <td> 
             <tr>  
             <td align="right">
              <label for="fname"> First Name</label></td>
@@ -77,10 +73,9 @@ Note: If this looks familiar, its because it is. I am taking your class again!
         <td align="right">
             <label for="PainScale">Pain Scale</label>
         </td>
-        <td align="center">&nbsp;Minimal
+        <td >&nbsp;Minimal
             <input type="range" class="slider" id="Pscale" name="PainScales" step="100" min="200" max="2000"> 
             Severe&nbsp;<br>
-            <span id="rangedisplay">Medium</span>
         </td>
     </tr>
                         
@@ -167,7 +162,9 @@ Note: If this looks familiar, its because it is. I am taking your class again!
                 </center></td></tr>
                 <script>
                     <!-- credit you professor and to Pankaj Panjwani -->
-	  <link rel="stylesheet" href="Assignment1.css">
+         document.getElementById("today").innerHTML = new Date().toLocaleDateString();
+                     var today = new Date().toISOString().split('T')[0];
+	     document.getElementById('birthday').setAttribute('max', today); 
 ```````</script>
            <script src="Assignment1.js"></script>                   
                         </table>
