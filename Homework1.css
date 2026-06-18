@@ -6,9 +6,8 @@
  Purpose: Style sheet for my MIS 3371 website
  */
 img {
-  display: block;
   margin: auto;
-  width: 50%;
+
 }
 body {
     background-color:#330066;
