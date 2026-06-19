@@ -6,32 +6,36 @@
  Purpose: Style sheet for my MIS 3371 website
  */
 body {
-  margin: auto
+    
     background-color:#330066;
     font-family: Garamond;
     color: #BF6CE2;
+    margin: auto
 }
  h1 {
-    margin: auto
+    line-height: 1.6;
     text-align: center;
     font-family: Garamond;
     font-weight: normal;
     color: #BF6CE2;
+    margin: auto
 }
 table.form, tr.form, td.form {
+  line-height: 1.6;
   width: 70%;
   opacity: 0.9;
   font-family: Helvetica;
   background-color:#111111;
-  padding: 0px;
+  padding: 10px;
   border-spacing: 00px;
   color:white;
- margin: auto
+  margin: auto
 }
 th.form {
+ line-height: 1.6;
   font-family:Helvetica;
   background-color:#39295D;
-  padding: 20px;
+  padding: 30px;
   border-spacing: 20px;
   color:white;
   margin-left: auto;
