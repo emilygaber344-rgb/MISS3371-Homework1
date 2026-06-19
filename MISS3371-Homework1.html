@@ -9,38 +9,38 @@
 			<div align='center'>
 				<img id="logo" src="Dahlia.logo.png" alt="Dahlia Clinic Logo">
 			</div>
-        <tr>
+        <tr class="form">
             <td>
             <h1 align="center">Dahlia Medical Clinic</h1>
             </td>
-           </tr>
+           </tr class="form">
         <div id="header">
             <form name="Intake" id="Intake" onreset="clear()" action="MIS3371SubmissionPage.html">
             <table align="center" class="form"  width="100%">
             <span id= "today"></span>
             <link rel="stylesheet" href="Homework1.css">
         </div>
-            <tr class="form"  >
+            <tr class="form" class="form"  >
                 <th class="form" colspan="3"> Patient Information</th>
                 </td>
-            </tr>         
-            <tr>  
+            </tr class="form">         
+            <tr class="form">  
             <td align="right">
              <label for="fname"> First Name</label></td>
-            <td><input pattern="[A-Z^a-z-' ^~]{1,32}" type="text" id="fname" size="30" maxlength="30" required onsubmit="validateFName()" oninvalid="alert('Please add a First Name');" placeholder="required field"> </td></tr>
-            <tr>  
+            <td><input pattern="[A-Z^a-z-' ^~]{1,32}" type="text" id="fname" size="30" maxlength="30" required onsubmit="validateFName()" oninvalid="alert('Please add a First Name');" placeholder="required field"> </td></tr class="form">
+            <tr class="form">  
             <td align="right"><label for="MiddleInitial">Middle Initial</label></td>
              <td> 
-            <input type="text" id="MiddleInitial" size="1" maxlength="1" " placeholder="optional field"></td></tr>            
-            <tr>  
+            <input type="text" id="MiddleInitial" size="1" maxlength="1" " placeholder="optional field"></td></tr class="form">            
+            <tr class="form">  
                   <td align="right">
              <label for="LastName">Last Name</label></td>
-                      <td>  <input type="text" id="LastName" size="30" maxlength="30" pattern="[A-Z^a-z34-' ]{2,}" required oninput="" placeholder="required field"> </td></tr>
-                            <tr>  <td align="right">
+                      <td>  <input type="text" id="LastName" size="30" maxlength="30" pattern="[A-Z^a-z34-' ]{2,}" required oninput="" placeholder="required field"> </td></tr class="form">
+                            <tr class="form">  <td align="right">
                                 
              <label for="birthday">Date of Birth</label></td>
-                      <td>  <input type="date" id="birthday" size="12" min="1909-01-01" max="" required placeholder="MM/DD/YYYY"> </td></tr>
-                            <tr>  
+                      <td>  <input type="date" id="birthday" size="12" min="1909-01-01" max="" required placeholder="MM/DD/YYYY"> </td></tr class="form">
+                            <tr class="form">  
 			<td align="right" >
                 <label for="gender" >Gender</label></td> 
                             
@@ -52,34 +52,41 @@
                 <input type="radio" name ="gender" value="Other">
                 <label for="Other"><span>Other</span></label><br>
           </td>
-           </tr> 
+           </tr class="form"> 
                             
-                               <tr>  <td align="right">
+                               <tr class="form">  <td align="right">
              <label for="SSN">Social Security Number</label></td>
-                      <td>  <input type="password" id="SSN" size="30" maxlength="30" required oninput="" placeholder="required field"> </td></tr>
-                               <tr>  <td align="right">
-                                      <tr>  <td align="right">
+                      <td>  <input type="password" id="SSN" size="30" maxlength="30" required oninput="" placeholder="required field"> </td></tr class="form">
+                               <tr class="form">  <td align="right">
+                                      <tr class="form">  <td align="right">
              <label for="EmailAddress">Email Address</label></td>
-                     <td>  <input type="email" id="EmailAddress"  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,32}$" size="30" maxlength="30" > </td></tr>
+                     <td>  <input type="email" id="EmailAddress"  pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,32}$" size="30" maxlength="30" > </td></tr class="form">
               
-                     <tr>      <td align="right"><label for="PhoneNum">Phone Number</label></td>
-                        <td><input type="text" id="PhoneNum" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="20" maxlength="13"placeholder="Formatted XXX-XXX-XXXX"> > </td></tr>
-              <input type="checkbox" id="race" name="Race" value="race">
-				<label for="Race"> Black or African American </label><br>
-                <input type="checkbox" id="race" name="Race" value="race">
-				<label for="Race"> Asian or Pacific Islander </label><br>
-                <input type="checkbox" id="race" name="Race" value="race">
-				 <label for="Race"> White or Caucasian </label><br>
-                 <input type="checkbox" id="race" name="Race" value="race">
-				 <label for="Race"> Native American or Alaskan Native </label><br>
-                 <input type="checkbox" id="race" name="Race" value="race">
-				 <label for="Race"> Mixed </label><br>
-                 <input type="checkbox" id="race" name="Race" value="race">
-				<label for="Race"> Choose not to identify/Other </label><br>
-                 <tr> <td align="right"> <label for="Symptoms">Describe Your Symptoms</label> </td>
+                     <tr class="form">      <td align="right"><label for="PhoneNum">Phone Number</label></td>
+                        <td><input type="text" id="PhoneNum" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="20" maxlength="13" > </td></tr class="form">
+               <input type="checkbox" id="race" name="Race" value="race">
+				 <tr class="form">  
+                                <td align="right"> <label for="Race">Please describe your race/ethnicity.</label></td>
+                    
+                                    <td>
+                                
+                                    <input type="checkbox" id="race" name="Race" value="race">
+                                    <label for="Race"> Black or African American </label><br>
+                                    <input type="checkbox" id="race" name="Race" value="race">
+                                    <label for="Race"> Asian or Pacific Islander </label><br>
+                                    <input type="checkbox" id="race" name="Race" value="race">
+                                    <label for="Race"> White or Caucasian </label><br>
+                                <input type="checkbox" id="race" name="Race" value="race">
+                                   <label for="Race"> Native American or Alaskan Native </label><br>
+                                 <input type="checkbox" id="race" name="Race" value="race">
+                                    <label for="Race"> Mixed </label><br>
+                                   <input type="checkbox" id="race" name="Race" value="race">
+                                    <label for="Race"> Choose not to identify/Other </label><br> </td>
+                                  </tr>
+                 <tr class="form"> <td align="right"> <label for="Symptoms">Describe Your Symptoms</label> </td>
                       <td>  <textarea name="desc" rows="5"  cols="70" 
-                    maxlength="500" placeholder="Please describe some of your symptoms if any." id="Symptoms"></textarea> </td> </tr>
-              <tr >
+                    maxlength="500" placeholder="Please describe some of your symptoms if any." id="Symptoms"></textarea> </td> </tr >
+              <tr class="form" >
         <td align="right">
             <label for="PainScale">Pain Scale</label>
         </td>
@@ -87,18 +94,18 @@
             <input type="range" class="slider" id="Pscale" name="PainScales" step="100" min="200" max="2000"> 
             Severe&nbsp;<br>
         </td>
-    </tr>
+    </tr class="form" class="form">
                         
-        <tr>  <td align="right"><label for="AddressLine">Address Line</label></td>
-                            <td>  <input type="text" id="AddressLine" size="30" maxlength="50" required oninput="" placeholder="required"> </td></tr>
-                                    <tr>  <td align="right">
-        <tr>  <td align="right"> <label for="City">City</label></td>
-                            <td>  <input type="text" id="City" size="30" maxlength="30" required oninput="" placeholder="required,Enter a valid city."> </td></tr>
-                                    <tr>  <td align="right">
-        <tr>  <td align="right"> <label for="Zcode">Zip Code</label></td>
-                            <td> <input type="text" id="ZCode" size="8" maxlength="10" required oninput="" placeholder="required (ex, 77312, 12345-6789)"> </td> </tr>
+        <tr class="form" class="form">  <td align="right"><label for="AddressLine">Address Line</label></td>
+                            <td>  <input type="text" id="AddressLine" size="30" maxlength="50" required oninput="" placeholder="required field"> </td></tr class="form">
+                                    <tr class="form">  <td align="right">
+        <tr class="form" class="form">  <td align="right"> <label for="City">City</label></td>
+                            <td>  <input type="text" id="City" size="30" maxlength="30" required oninput="" placeholder="required field"> </td></tr class="form">
+                                    <tr class="form">  <td align="right">
+        <tr class="form" class="form">  <td align="right"> <label for="Zcode">Zip Code</label></td>
+                            <td> <input type="text" id="ZCode" size="8" maxlength="9" required oninput="" placeholder="required field"> </td> </tr class="form">
                     
-           <tr>  <td align="right">  <label for="State">State</label></td>
+           <tr class="form">  <td align="right">  <label for="State">State</label></td>
 <!--credit to pusherman on github https://gist.github.com/pusherman/3145761-->
             <td>    <select name="state" id="state">
                     <option value="" selected="selected">Select a State</option>
@@ -153,23 +160,23 @@
                     <option value="WV">West Virginia</option>
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
-                    </select> </td></tr>
-         <tr> <td align="right"> <label for="uname"> Username</label></td>
+                    </select> </td></tr class="form">
+         <tr class="form"> <td align="right"> <label for="uname"> Username</label></td>
               <td>
-                        <input type="text" id="uname" required size="30" min="5" maxlength="30" > </td></tr>
+                        <input type="text" id="uname" required size="30" min="5" maxlength="30" > </td></tr class="form">
                      
-             <tr>    <td align="right"> <label for="Password">Password</label> </td>
-                     <td>   <input type="password" id="Password" size="30" min="8"  maxlength="30" required placeholder="required field" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"> </td></tr>
+             <tr class="form">    <td align="right"> <label for="Password">Password</label> </td>
+                     <td>   <input type="password" id="Password" size="30" min="8"  maxlength="30" required placeholder="required field" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"> </td></tr class="form">
               
-                       <tr>  <td align="right"> <label for="RePassword">Retype your Password</label></td>
-                       <td> <input type="password" id="RePassword" size="30" min="8" maxlength="30" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="required field"> </td></tr>
-             <tr> 
+                       <tr class="form">  <td align="right"> <label for="RePassword">Retype your Password</label></td>
+                       <td> <input type="password" id="RePassword" size="30" min="8" maxlength="30" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required placeholder="required field"> </td></tr class="form">
+             <tr class="form"> 
                  <td colspan="3">
             <center>
                 <input type="submit" value="Submit" >
                <input type="button" value="Review" onclick="returndata()"> 
               <input type="reset" onclick="clear()">
-                </center></td></tr>
+                </center></td></tr class="form">
                 <script>
                     <!-- credit you professor and to Pankaj Panjwani -->
          document.getElementById("today").innerHTML = new Date().toLocaleDateString();
@@ -185,7 +192,7 @@
                          <body>
 
                 <div>
-                    <tr>  
+                    <tr class="form">  
              <td>
                 <center>
                     <footer class="form">
@@ -196,9 +203,11 @@
                     </p>
                     </footer>
                     </td>
-                    </tr>
+                    </tr class="form">
                     
                     </center>
                 </div>
                 </body>
+</html>
+
 </html>
