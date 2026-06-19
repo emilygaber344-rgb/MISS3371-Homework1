@@ -23,7 +23,7 @@ table.form, tr.form, td.form {
   line-height: 1.8;
   width: 70%;
 
-  font-family: Garamond;
+  font-family: Georgia;
   background-color:#111111;
   padding: 10px;
   border-spacing: 00px;
@@ -33,7 +33,7 @@ table.form, tr.form, td.form {
 th.form {
 font-size: 25px;
   line-height: 1.8;
-  font-family:Garamond;
+  font-family:Georgia;
   background-color:#330066;
   padding: 30px;
   opacity: 0.5;
@@ -47,7 +47,7 @@ div.Thankform, tr.Thankform, td.Thankform {
   width: 60%;
   font-size: 25px;
   align-items: center;
-  font-family: Garamond;
+  font-family: Georgia;
   background-color:#111111;
   padding: 10px;
   border-spacing: 00px;
