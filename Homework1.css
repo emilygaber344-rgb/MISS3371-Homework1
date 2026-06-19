@@ -24,7 +24,7 @@ table.form, tr.form, td.form {
   line-height: 1.6;
   width: 70%;
   opacity: 0.9;
-  font-family: Helvetica;
+  font-family: Garamond;
   background-color:#111111;
   padding: 10px;
   border-spacing: 00px;
@@ -33,7 +33,7 @@ table.form, tr.form, td.form {
 }
 th.form {
  line-height: 1.6;
-  font-family:Helvetica;
+  font-family:Garamond;
   background-color:#39295D;
   padding: 30px;
   border-spacing: 20px;
