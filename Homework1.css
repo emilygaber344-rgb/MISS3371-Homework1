@@ -2,7 +2,7 @@
  Name: Emily Gaber
  File: Dahliahomework1.css
  Date Created: 6/17/2026
- Date Updated: 6/17/2026
+ Date Updated: 6/18/2026
  Purpose: Style sheet for my MIS 3371 website
  */
 body { 
@@ -22,8 +22,8 @@ body {
 table.form, tr.form, td.form {
   line-height: 1.8;
   width: 70%;
-
-  font-family: Georgia;
+  text-align: auto;
+  font-family: Garamond;
   background-color:#111111;
   padding: 10px;
   border-spacing: 00px;
@@ -33,7 +33,7 @@ table.form, tr.form, td.form {
 th.form {
 font-size: 25px;
   line-height: 1.8;
-  font-family:Georgia;
+  font-family:Garamond;
   background-color:#330066;
   padding: 30px;
   opacity: 0.5;
@@ -47,7 +47,7 @@ div.Thankform, tr.Thankform, td.Thankform {
   width: 60%;
   font-size: 25px;
   align-items: center;
-  font-family: Georgia;
+  font-family: Garamond;
   background-color:#111111;
   padding: 10px;
   border-spacing: 00px;
@@ -71,10 +71,13 @@ footer{
     width:10px
 }
 a {
-  color: #d677ff; 
+  color: #d677ff; /* Replace with your hex, RGB, or named color */
 }
 .textsize5 
 {
     line-height: 1.8;
+    width:40px
+}
+
     width:40px
 }
